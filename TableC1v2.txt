@@ -1,0 +1,157 @@
+#Title: Hunting for anti-solar differentially rotating stars
+#       using the Rossby number -
+#       An application to the Kepler field
+#Authors: Q. Noraz, S. N. Breton, A. S. Brun, R. A. García, A. Strugarek,
+#	 A. R. G. Santos, S. Mathur, L. Amard
+#Table: Results of individual visual inspections
+#================================================================================
+#Byte-by-byte Description of file: TableC1.txt
+#--------------------------------------------------------------------------------
+# Bytes    Format   Units             Label   Explanations
+#--------------------------------------------------------------------------------
+#  1- 8      I1      ---                KIC   Kepler Input Catalog identifier
+#    10      I1      ---          Halo flag   Target in bright Halo (1)
+#    12      I1      ---   Neighboring flag   Neighbors in FoV (2)
+#    14      I1      ---         Shape flag   Suspicious shape (3)
+#    16      I1      ---          logg flag   High logg uncertainties (4)
+#    18      I1      ---          Prot flag   Uncertain rotation period (5)
+#    20      I1      ---     Candaidte flag   Antisolar candidate (6)
+#--------------------------------------------------------------------------------
+#Note (1):
+#     0 = No pollution from the halo of another star;
+#     1 = The target is in the light-halo of a brighter star
+#       	 from the visual inspection of 2MASS images
+#	 (Skrutskie et al. 2006 [2006AJ....131.1163S] ).
+#Note (2):
+#     0 = There is no neighbor visible in the Kepler acquisition
+#       	 field of view (FoV);
+#     1 = There is at least a neighbor visible in the Kepler acquisition FoV,
+#       	 which is not polluting the rotational signal of the target;
+#     2 = There is at least a neighbor visible in the Kepler acquisition FoV,
+#       	 which is possibly polluting the rotational signal of the target;
+#     3 = There is at least a neighbor visible in the Kepler acquisition FoV,
+#       	 which is surely polluting the rotational signal of the target.
+#Note (3):
+#     0 = The shape of the target in the FoV is not suspicious;
+#     1 = The shape of the target in the FoV is deformed or elongated.
+#Note (4):
+#     0 = logg uncertainties taken from Santos et al (2019), (2021)
+#      	  are standard;
+#     1 = logg uncertainties taken from Santos et al (2019), (2021)
+#      	  are too large (e_logg > 0.7 dex) to decipher whether the target
+#	  is in its MS phase or in its subgiant phase.
+#Note (5):
+#     0 = The rotation period (Prot) value extracted by
+#       	 Santos et al (2019), (2021) [2019ApJS..244...21S,2021ApJS..255...17S]
+#	 (S19-21) clearly comes from the rotational signal of the target;
+#     1 = The Prot value extracted by S19-21 possibly does not come from the
+#       	 rotational signal of the target;
+#     2 = We compute a new reliable Prot value from the rotational signal of the
+#       	 target, but the corresponding new Rossby value is too low to consider
+#	 the target in the optimistic sample;
+#     3 = We compute a new reliable Prot value from the rotational signal of the
+#       	 target and the corresponding new Rossby value is high enough to keep
+#	 the target in the optimistic sample.
+#Note (6):
+#     0 = We do not consider the target as an anti-solar DR candidate;
+#     1 = We consider the target as an anti-solar DR candidate.
+#--------------------------------------------------------------------------------
+ 1849159 0 1 0 0 1 0
+ 2010593 0 2 0 0 1 0
+ 2161400 0 1 0 0 0 1
+ 2832295 0 1 0 0 1 0
+ 3113301 0 0 0 0 0 1
+ 3628076 0 0 0 0 0 1
+ 3743803 0 3 0 0 1 0
+ 3746157 0 1 0 0 0 1
+ 3749291 0 2 0 0 1 0
+ 3855280 0 1 0 0 1 0
+ 3860063 0 2 0 0 1 0
+ 3956942 0 2 0 0 2 0
+ 4036962 0 1 0 0 1 0
+ 4042415 1 1 0 0 1 0
+ 4263986 0 2 0 0 0 0
+ 4265609 0 1 0 0 0 1
+ 4465000 0 3 0 0 1 0
+ 4569596 0 3 0 0 1 0
+ 4742494 0 2 0 0 1 0
+ 4750706 0 2 0 0 1 0
+ 4831203 1 3 0 0 1 0
+ 5024984 0 1 0 1 0 0
+ 5114200 0 1 1 0 0 0
+ 5128725 0 1 0 0 2 0
+ 5615772 0 2 0 0 1 0
+ 5694967 0 2 0 0 1 0
+ 5876918 0 1 1 0 0 0  
+ 5952482 1 0 0 0 1 0
+ 5983813 0 1 1 0 2 0
+ 6025356 0 1 0 0 1 0
+ 6068129 0 1 0 0 0 1
+ 6138407 1 3 0 0 1 0
+ 6264181 0 0 0 0 2 0
+ 6356292 0 1 0 0 0 1
+ 6436380 0 1 0 0 3 1
+ 6509497 0 0 0 0 2 0
+ 6522745 1 1 0 0 1 0
+ 6522851 1 1 0 0 1 0
+ 6541604 0 1 0 0 2 0
+ 6665024 0 0 0 0 2 0
+ 6665554 0 0 0 0 2 0
+ 6842602 0 0 0 0 0 1
+ 6844366 0 2 0 0 1 0
+ 6850029 0 0 0 0 0 1
+ 6875342 0 3 0 0 1 0
+ 7097538 0 1 0 0 0 1
+ 7100739 0 0 1 0 1 0
+ 7189915 0 1 0 0 2 1
+ 7420081 1 1 0 0 1 0
+ 7428723 0 0 0 0 0 1
+ 7594197 1 3 0 0 1 0
+ 7765395 0 2 0 0 1 0
+ 7837314 0 2 0 0 1 0
+ 7838712 0 1 0 0 1 0
+ 7908114 0 1 0 0 0 1
+ 8165623 0 1 0 0 1 0
+ 8194513 0 1 0 0 0 1
+ 8245631 0 1 0 0 0 1
+ 8315313 0 2 0 0 1 0
+ 8331089 0 1 0 0 1 0
+ 8620260 0 2 0 0 1 0
+ 8638020 0 2 0 0 1 0
+ 8772179 0 3 1 0 1 0
+ 8949810 0 1 0 0 2 0
+ 8976940 0 0 1 0 1 0
+ 9116644 0 1 0 0 1 0
+ 9266787 0 0 0 0 1 0
+ 9286251 0 0 1 0 1 0
+ 9335202 0 1 0 0 1 0
+ 9411521 0 1 0 0 2 0
+ 9528105 1 1 0 0 1 0
+ 9528200 1 0 0 0 1 0
+ 9528222 1 0 0 0 1 0
+ 9530806 0 1 1 0 1 0
+ 9712998 0 2 1 0 1 0
+ 9764642 0 0 0 0 1 0
+ 9836268 0 2 0 0 1 0
+ 9881905 0 0 1 0 1 0
+ 9958630 0 0 0 0 2 0
+10383773 1 3 0 0 1 0
+10398963 0 2 0 0 1 0
+10516429 0 1 0 0 3 1
+10593721 1 2 0 0 1 0
+10670661 0 1 0 0 0 1
+10907436 0 0 0 0 0 1
+10923384 0 1 0 0 2 0
+10934680 1 3 1 0 1 0
+11028172 0 1 0 0 0 1
+11138509 0 1 0 0 2 0
+11143784 0 1 0 0 1 0
+11183298 0 1 0 0 1 0
+11259854 0 0 0 0 0 0
+11348829 0 1 0 0 1 0
+11874099 0 3 0 0 1 0
+11912541 0 1 0 0 0 1
+12116823 1 3 0 0 1 0
+12117868 0 0 0 0 0 1
+12203488 0 0 0 0 1 0
+12301352 0 0 0 0 1 0
