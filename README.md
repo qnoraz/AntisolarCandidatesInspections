@@ -8,5 +8,5 @@ In order to keep the most reliable one, we first performed visual check of the K
 Then, then we performed additional rotation anaylsis of the light-curves in order to ensure the reliability of the detected Prot in Santos et al. (2019, 2021).
 
 The light-curves are made available for the 99 targets in the 'LightCurves' folder.
-You can find as well the plotted summary of the different rotation analysis in the 'RotationPlots' folder.
+You can find as well the plotted summary of the different rotation analysis in the 'FigsRot' folder.
 Finally, Table C.1 of Noraz et al. (2022b) is made available in its full and machine-readable form : see TableC1v2.txt
