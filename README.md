@@ -1,3 +1,4 @@
++
 Title: Hunting for anti-solar differentially rotating stars using the Rossby number - An application to the Kepler field
 +
 Authors: Q. Noraz, S. N. Breton, A. S. Brun, R. A. García, A. Strugarek, A. R. G. Santos, S. Mathur, L. Amard
@@ -27,3 +28,4 @@ The five related light curves can be found for each target in .fits files locate
 The Jupiter Python notebook give you an example of plot you can make with such .fits files.
 +
 Finally, Table C.1 of Noraz et al. (2022b) is made available in its full and machine-readable form : see TableC1v2.txt .
++
