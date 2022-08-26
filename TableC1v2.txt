@@ -5,7 +5,7 @@
 #	 A. R. G. Santos, S. Mathur, L. Amard
 #Table: Results of individual visual inspections
 #================================================================================
-#Byte-by-byte Description of file: TableC1.txt
+#Byte-by-byte Description of file: TableC1v2.txt
 #--------------------------------------------------------------------------------
 # Bytes    Format   Units             Label   Explanations
 #--------------------------------------------------------------------------------
