@@ -10,10 +10,12 @@ Then, then we performed additional rotation anaylsis of the light-curves in orde
 
 You can find a summary plot of the different rotation analysis for each targets in the 'FigsRot' folder.
 The five related light curves can be found for each target in .fits files located in the 'LC' folder:
++
 .................
 - the three KEPSEISMIC light-curves used in Santos et al. (2019, 2021) and obtained with KADACS (García et al. 2011) for cutoff periods at 20, 55 and 80 days (./KADACSxxd/ with xx the period value),
 - the PDC-MAP light-curve (Jenkins et al. 2010; Smith et al. 2012; Stumpe et al. 2012) (./PDC54d/),
 - the additional KEPSEISMIC light-curve cutted off at 80 days, and which has been detrended from the long-term Kepler modulation (./Fold80d).
 .................
++
 The Jupiter Python notebook give you an example of plot you can make with such .fits files.
 Finally, Table C.1 of Noraz et al. (2022b) is made available in its full and machine-readable form : see TableC1v2.txt .
