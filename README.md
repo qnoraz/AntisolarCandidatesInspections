@@ -12,5 +12,5 @@ The five related light curves can be found for each target in .fits files locate
 - the PDC-MAP light-curve (Jenkins et al. 2010; Smith et al. 2012; Stumpe et al. 2012) (./PDC54d/),  
 - the additional KEPSEISMIC light-curve cutted off at 80 days, and which has been detrended from the long-term Kepler modulation (./Fold80d).  
 
-The Jupiter Python notebook give you an example of plot you can make with such .fits files.  
+The Jupiter Python notebook 'READ_KEPSEISMIC_FITS_FILES' give you an example of plot you can make with such .fits files.  
 Finally, Table C.1 of Noraz et al. (2022b) is made available in its full and machine-readable form : see TableC1v2.txt .  
