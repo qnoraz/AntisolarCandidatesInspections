@@ -1,5 +1,10 @@
+## Presentation
+
+This repository contains data used for the published study:  
 Title: Hunting for anti-solar differentially rotating stars using the Rossby number - An application to the Kepler field  
 Authors: Q. Noraz, S. N. Breton, A. S. Brun, R. A. García, A. Strugarek, A. R. G. Santos, S. Mathur, L. Amard  
+
+## Description
 
 You will find in this repository data used for the individual inspections of anti-solar candidates of the Noraz et al. (2022b) (A&A) study.
 These anti-solar candidates are 99 Kepler targets, which were first selected with their high Rossby values, calculated with the analytical formula from the same study.
@@ -13,4 +18,10 @@ The five related light curves can be found for each target in .fits files locate
 - the additional KEPSEISMIC light-curve cutted off at 80 days, and which has been detrended from the long-term Kepler modulation (./Fold80d).  
 
 The Jupiter Python notebook 'READ_KEPSEISMIC_FITS_FILES' give you an example of plot you can make with such .fits files.  
-Finally, Table C.1 of Noraz et al. (2022b) is made available in its full and machine-readable form : see TableC1v2.txt .  
+Finally, Table C.1 of Noraz et al. (2022b) is made available in its full and machine-readable form : see TableC1v2.txt .
+
+## Requirements
+
+The Python Notebook is written for Python 3. If used on your personal machine, the following packages are required:  
+- astropy  
+- matplotlib  
