@@ -1,6 +1,7 @@
 ## Presentation
 
-This repository contains data used for the published study:  
+This repository contains data used for the published study:
+https://arxiv.org/abs/2208.12297  
 Title: Hunting for anti-solar differentially rotating stars using the Rossby number - An application to the Kepler field  
 Authors: Q. Noraz, S. N. Breton, A. S. Brun, R. A. García, A. Strugarek, A. R. G. Santos, S. Mathur, L. Amard  
 
