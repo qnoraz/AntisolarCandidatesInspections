@@ -12,6 +12,8 @@ These anti-solar candidates are 99 Kepler targets, which were first selected wit
 In order to keep the most reliable one, we first performed visual check of the Kepler field of view, with the 2MASS data base (https://kasoc.phys.au.dk/).
 Then, then we performed additional rotation anaylsis of the light-curves in order to ensure the reliability of the detected Prot in Santos et al. (2019, 2021).
 
+## Material
+
 You can find a summary plot of the different rotation analysis for each targets in the 'FigsRot' folder.  
 The five related light curves can be found for each target in .fits files located in the 'LC' folder:  
 - the three KEPSEISMIC light-curves used in Santos et al. (2019, 2021) and obtained with KADACS (García et al. 2011) for cutoff periods at 20, 55 and 80 days (./KADACSxxd/ with xx the period value),  
